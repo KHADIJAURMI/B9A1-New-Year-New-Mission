@@ -1,0 +1,43 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-banner-img {
+    height: 550px;
+    background: linear-gradient(to top, rgba(117, 113, 113, 0),
+            rgba(0, 0, 0, 0.9)), url('/resources/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-banner-img h4 {
+    color: white;
+    font-size: 32px;
+    font-weight: 400
+}
+
+.header-banner-img h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 400
+}
+
+.header-banner-img .banner-content {
+    padding: 180px 350px;
+    text-align: center;
+}
+
+.banner-content h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.banner-content h2 {
+    font-size: 60px;
+    font-weight: 800;
+}
