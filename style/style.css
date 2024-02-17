@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.primary-text-color {
+    color: red;
+}
+
 .header-banner-img {
     height: 550px;
     background: linear-gradient(to top, rgba(117, 113, 113, 0),
@@ -53,14 +57,12 @@
 .deals-content h1 {
     font-size: 88px;
     font-weight: 700;
-    color: red;
     margin-bottom: 20px;
 }
 
 .deals-content p {
     font-size: 20px;
     font-weight: 500;
-    color: red;
     margin-bottom: 20px;
 }
 
@@ -158,9 +160,6 @@
     gap: 10px;
 }
 
-.party-details h3 {
-    color: red;
-}
 
 .party-details h3,
 .party-details p {
@@ -179,4 +178,76 @@
     border-radius: 5px;
     margin-top: 30px;
     margin-right: 20px;
+}
+
+.new-offer-container {
+    margin: 50px;
+    max-width: 1400px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.new-offer-container .offer-intro {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.offer-intro .offer-intro-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+.offer-intro h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-intro .offer-intro-detail {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.6);
+    text-align: left;
+}
+
+.new-offer-container .offer-img img {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 15px solid red;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* offer-details part */
+.new-offer-container .offer-details {
+    max-width: 30%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 15px;
+}
+
+.new-offer-container .offer-details-title {
+    font-size: 48px;
+}
+
+.new-offer-container .offer-details img {
+    width: 150px;
+    height: 150px;
+}
+
+.new-offer-container .offer-details-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 18px;
+    margin-bottom: 20px;
 }
