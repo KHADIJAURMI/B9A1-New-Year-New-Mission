@@ -76,11 +76,9 @@
 }
 
 .party-container {
-    max-width: 1400px;
     height: 400px;
-    width: 80%;
     margin: 0 auto;
-    padding: 125px;
+    padding: 125px 0px;
     background: linear-gradient(to top, rgba(117, 113, 113, 0),
             rgba(0, 0, 0, 0.9)), url('/resources/partyyyy.png');
     background-position: center;
@@ -92,10 +90,15 @@
 }
 
 .party-container-text {
-    text-align: center;
+    width: 45%;
+    margin-top: 28px;
+    margin-left: 0;
     color: white;
-    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
 
 .party-container-text h1 {
     font-size: 60px;
@@ -104,15 +107,14 @@
 }
 
 .party-description {
-    text-align: center;
     color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .party-container-img {
     width: 350px;
-    height: 350px;
+    height: 400px;
 }
 
 .party-container-text button {
