@@ -11,7 +11,7 @@
 .header-banner-img {
     height: 550px;
     background: linear-gradient(to top, rgba(117, 113, 113, 0),
-            rgba(0, 0, 0, 0.9)), url('resources/Banner\ Image.png');
+            rgba(0, 0, 0, 0.9)), url('../resources/Banner Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +82,7 @@
     margin: 0 auto;
     padding: 125px 0px;
     background: linear-gradient(to top, rgba(117, 113, 113, 0),
-            rgba(0, 0, 0, 0.9)), url('resources/partyyyy.png');
+            rgba(0, 0, 0, 0.9)), url('../resources/partyyyy.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
