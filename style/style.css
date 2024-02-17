@@ -251,3 +251,38 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+/* portfolio-section part */
+.portfolio-section {
+    max-width: 1400px;
+}
+
+.portfolio-section-details {
+    width: 600px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.portfolio-section-details h4 {
+    font-size: 20px;
+}
+
+.portfolio-section-details h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.portfolio-section-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-section-image img {
+    width: 350px;
+    height: 300px;
+    margin: 15px;
+}
